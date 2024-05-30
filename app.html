@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web con Ionic y Bootstrap</title>
+  <!-- Importar los estilos de Ionic -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  
+  <!-- Importar los estilos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <ion-app>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Mi Página Web con Ionic y Bootstrap</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <ion-card>
+              <ion-card-header>
+                <ion-card-title>Bienvenido</ion-card-title>
+              </ion-card-header>
+              <ion-card-content>
+                ¡Hola! Esta es una página web creada utilizando el framework Ionic y estilos de Bootstrap.
+              </ion-card-content>
+            </ion-card>
+          </div>
+          <div class="col-lg-6">
+            <img src="https://picsum.photos/id/1/500/300" class="img-fluid rounded" alt="Imagen de muestra">
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-12">
+            <h2>Acerca de Nosotros</h2>
+            <p>Somos una empresa dedicada a la creación de páginas web y aplicaciones móviles. Nuestro objetivo es brindar soluciones tecnológicas de alta calidad a nuestros clientes.</p>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Servicios</h5>
+                <p class="card-text">Ofrecemos una variedad de servicios relacionados con el desarrollo web y móvil.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Clientes</h5>
+                <p class="card-text">Trabajamos con empresas de diversos sectores para brindarles soluciones a medida.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Equipo</h5>
+                <p class="card-text">Nuestro equipo de profesionales está comprometido con la excelencia en el trabajo.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-5">
+          <div class="col-12">
+            <h2>Contacto</h2>
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Ingresa tu nombre">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Escribe tu mensaje"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </ion-content>
+
+    <ion-footer>
+      <ion-toolbar>
+        <ion-title>Derechos Reservados © 2024</ion-title>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-app>
+</body>
+</html>
